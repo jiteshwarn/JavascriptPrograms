@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>TicTacToe</title>
+	<style type="text/css">
+		#gamearea{
+			height: 310px;
+			width: 310px;
+			background-color: #ccc;
+			padding: 10px
+		}
+		section div{
+			height: 100px;
+			width: 100px;
+			background-color: FFC;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<section id="gamearea">
+		<div data-box="1" data-flag="0"></div>
+		<div data-box="2" data-flag="0"></div>
+		<div data-box="3" data-flag="0"></div>
+		<div data-box="4" data-flag="0"></div>
+		<div data-box="5" data-flag="0"></div>
+		<div data-box="6" data-flag="0"></div>
+		<div data-box="7" data-flag="0"></div>
+		<div data-box="8" data-flag="0"></div>
+		<div data-box="9" data-flag="0"></div>
+	</section>
+	<section id="contoller">Who will start first ?
+		<label><input type="radio" name="user" value="BLACK" checked="checked"/>Black</label>
+		<label><input type="radio" name="user" value="WHITE"/>White</label>
+		<button id="reset">Reset</button>
+	</section>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
