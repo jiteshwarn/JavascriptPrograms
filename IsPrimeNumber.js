@@ -42,3 +42,21 @@ function isPrime(n){
   }
   return true;
 }
+
+//For any prime number there exists 'a' , 1 < a < n
+//for which a^(n-1)%n == 1
+//This is mathematically correct but will fail for higher numbers as computer use double-precision floating format
+//Thats why, 17 is not prime when this code runs
+function isPrime(n){
+  if(n<2) return false;
+  
+  if(n === 2) return true;
+  
+  for(var a = 2;a<n;a++){
+    console.log(a,Math.pow(a,n-1)%n);
+    if(Math.pow(a,n-1)%n !== 1){
+         return false;
+    }
+  }
+  return true;
+}
