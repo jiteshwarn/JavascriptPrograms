@@ -10,6 +10,11 @@ String.prototype.reverse = function(){
   return reverseMessage;
 };
 
+//Less is more, A simple one liner to reverse a string
+String.prototype.reverse = function(){
+  return Array.from(this).reverse().join('');  //Utilizing the Array.from() and Array.reverse() method
+}
+
 //Using the the function reverse
 var message = "I am Bhupendra";
 
