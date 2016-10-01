@@ -1,0 +1,29 @@
+<html>
+  <body>
+    <table class="personDetails">
+      <tr>
+        <td>Bhupendra</td><td>Parihar</td>
+      </tr>
+      <tr>
+        <td>Mohit</td><td>Singh</td>
+      </tr>
+    </table>
+    <script>
+      var personTable = document.querySelector('.personDetails');
+      
+      personTable.addEventListener('click', function(e){
+        var target = getEventTarget(e);
+        if(target.tagName.toLowerCase() === 'td'){
+          alert(target.innerHTML);
+        }
+      });
+      
+      function getEventTarget(e){
+        e = e || window.event;
+        
+        //e.srcElement for supporting IE
+        return e.target || e.srcElement;
+      }
+    </script>
+  </body>
+</html>
