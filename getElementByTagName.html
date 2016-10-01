@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <div>A</div>
+    <div>B</div>
+    <script>
+      var staticNodes = document.querySelectorAll('div');
+      var liveNodes = document.getElementsByTagName('div');
+      
+      //Adding a extra div to body
+      var newDiv = document.createElement('div');
+      newDiv.innerHTML = "C";
+      document.body.appendChild(newDiv);
+      
+      //Checking the staticNodes length
+      console.log("Static Nodes length " + staticNodes.length);
+      
+      //Checking the liveNodes length
+      console.log("Live Nodes length " + liveNodes.length);
+    </script>
+  </body>
+</html>
