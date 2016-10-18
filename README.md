@@ -1,5 +1,5 @@
  * Arrays 
-  * Find a pair in an array of size 'n', whose sum is X
+  * [Find a pair in an array of size 'n', whose sum is X](DataStructure/DS1.js)
   * Find a majority element in an array of size 'n'
   * Find the number occuring odd number of times in a given array of size 'n'
   * Algorithm to reverse an array
