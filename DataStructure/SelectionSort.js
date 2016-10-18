@@ -7,16 +7,15 @@ var selectionSort = n => { var tempArray = n.slice();
                          };
 
 var swapInArray = (n, i, j) => { 
-  								//Copy array
-                                var tempArray = n.slice();
-  
-  								//Swap the value at i and j index
-                                var temp = tempArray[i];
-                                tempArray[i] = tempArray[j];
-                                tempArray[j] = temp;
+  								
+                  var tempArray = n.slice();
+  								
+                  var temp = tempArray[i];
+                  tempArray[i] = tempArray[j];
+                  tempArray[j] = temp;
   
   								return tempArray;
-                              };
+                };
 
 var minValueInArray = n => Math.min.apply(null, n);
 
