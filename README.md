@@ -1,3 +1,5 @@
+ * Sorting
+  * [Selection Sort](DataStructure/SelectionSort.js) 
  * Arrays 
   * [Find a pair in an array of size 'n', whose sum is X](DataStructure/DS1.js)
   * Find a majority element in an array of size 'n'
