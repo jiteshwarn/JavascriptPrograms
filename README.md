@@ -1,6 +1,6 @@
  * Sorting
-  * [Selection Sort](DataStructure/SelectionSort.js) 
- * Arrays 
+  * [Selection Sort](DataStructure/SelectionSort.js)
+ * Arrays
   * [Find a pair in an array of size 'n', whose sum is X](DataStructure/DS1.js)
   * Find a majority element in an array of size 'n'
   * Find the number occuring odd number of times in a given array of size 'n'
@@ -68,11 +68,11 @@
   * Implement in order traversal without stack and recursion  
   * Convert a binary tree into its mirror tree
   * Check if a given binary tree is  sum tree or not
-  * Determine if the given two trees are identical or not 
+  * Determine if the given two trees are identical or not
   * Print out all of its roof to leaf paths in a given binary tree
   * Find a lowest common ancestor of a given two nodes in a abinary search tree
   * Find a lowest common ancestor of a given two nodes in a binary  tree
-  * Level order traversal in spiral form 
+  * Level order traversal in spiral form
   * Convert an arbitrary binary tree to a tree that holds children sum property
   * Find the Diameter of a BST
   * Construct tree from given inorder and post order traversal
@@ -93,7 +93,7 @@
   * Custom tree problem.
   * Construct complete binary tree from its linked list representation.
   * Find next right nodes of given leafs in a binary tree.
-  * Given a binary tree, print boundary nodes of the binary tree Anti-Clockwise starting from the root. 
+  * Given a binary tree, print boundary nodes of the binary tree Anti-Clockwise starting from the root.
   * Convert a given tree to its sum  tree.
   * Given a binary tree, find out if the tree can be folded or not.
   * Find largest sub tree having identical left and right sub tree.
@@ -195,3 +195,7 @@
 * Bit Manipulation
 
 * Mathematical Algorithms
+
+* Others
+  * Using visual detection, find out the offside in a football clip
+    https://www.youtube.com/watch?v=YJuHC7xXsGA
